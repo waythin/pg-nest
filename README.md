@@ -106,24 +106,24 @@ Nest is [MIT licensed](https://github.com/nestjs/nest/blob/master/LICENSE).
 
 
 ------------------------------
-# run development server | for live reload 
+### run development server | for live reload 
 > npm run start | npm run start:dev
 
 
-# step 1 
+### create new app
 > nest new my-nest-app
 
 
-# generate a module 
+### generate a module 
 > nest generate module moduleName | nest g mo users
 
 
 
-# generate a controller 
+### generate a controller 
 > nest generate controller users | nest g co users
 
 
-# generate a service 
+### generate a service 
 > nest generate service users | nest g s users
 
 
