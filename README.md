@@ -129,3 +129,21 @@ Nest is [MIT licensed](https://github.com/nestjs/nest/blob/master/LICENSE).
 
 
 
+-----------------------------------
+### prisma and postgteSQL
+
+### prisma 
+> npm install prisma --save-dev
+> npm install @prisma/client
+
+### for using postgresQL
+> npm install pg
+> npm install @prisma/client @prisma/adapter-node pg
+
+
+### install prisma 
+> npx prisma init
+
+
+### migration
+> npx prisma migrate dev --name init
