@@ -20,6 +20,10 @@ export class UsersController {
     @Get('ggwp')
     getUsers() {
       const users = [{ id: 1, name: 'John Doe' }, { id: 2, name: 'Jane Doe' }];
+      let dope = "ggwp";
+      if(dope){
+        return this.responseService.responseWithError(null, 'Throwing Error msg');
+      }
       return this.responseService.responseWithSuccess(users, 'Users retrieved successfully');
     }
 
