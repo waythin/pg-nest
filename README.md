@@ -147,3 +147,7 @@ Nest is [MIT licensed](https://github.com/nestjs/nest/blob/master/LICENSE).
 
 ### migration
 > npx prisma migrate dev --name init
+
+
+# create prisma service 
+> nest generate service prisma
